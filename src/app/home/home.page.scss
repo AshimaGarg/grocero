@@ -1,4 +1,37 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+ion-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 90px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+}
+
+.logout
+{
+  position: absolute; 
+  right: 8px; 
+  top:8px;
+}
+
+.image
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 56%;
+
+}
+
+.img-responsive
+{
+  width: 100%;
+  height:160px;
 }
