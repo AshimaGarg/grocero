@@ -16,11 +16,6 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    },
-    {
       title:'Notifications',
       url:'/notification',
       icon:'notifications'
@@ -29,7 +24,17 @@ export class AppComponent {
       title:'My Orders',
       url:'/orders',
       icon:'basket'
-    }
+    },
+    {
+      title:'My Cart',
+      url:'/cart',
+      icon:'cart'
+    },
+    {
+      title:'My Account',
+      url:'/account',
+      icon:'person'
+    },
   ];
 
   constructor(

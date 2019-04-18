@@ -6,12 +6,81 @@
     <ion-title>
      <a routerLink="/home" routerDirection="root"><ion-icon name="home" class="hyperlink"></ion-icon>
       Grocero</a>
+     <a routerLink="/notification"> <ion-icon style="margin-left: 22px" name="notifications"></ion-icon>
+     </a>
       <a routerLink="/login" routerDirection="backward"><ion-button color="primary" class="logout" size="small">Logout</ion-button></a>
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
+    <ion-slides pager="true">
+      <ion-slide>
+        <img class="slide" src="..\assets\images\cleaning.jpg">
+      </ion-slide>
+      <ion-slide>
+        <img class="slide" src="..\assets\images\maggi.jpg">
+      </ion-slide>
+      <ion-slide>
+        <img class="slide" src="..\assets\images\mamypoko.jpg">
+      </ion-slide>
+     
+    </ion-slides>
+  <h1 class="headertext">Shop By Category</h1>
+  
+    <div  class="outerdiv">
+<div class="categorytext">
+  <a routerLink="/personal"> <img class="image"src="..\assets\images\personalcare.png">
+    <p align="center">Personal Care</p>
+  </a>
+  </div>
+
+  <div class="categorytext">
+    <a routerLink="/household">  <img class="image" src="..\assets\images\household.png">
+      <p align="center">Household Needs</p>
+    </a>
+  </div>
+    <div class="categorytext">
+       <a routerLink="/babycare"> <img class="image" src="..\assets\images\babycare.png">
+        <p align="center">Baby Care</p>
+      </a>
+      </div>
+   <div class="categorytext">
+       <a routerLink="/snacks"> <img class="image" src="..\assets\images\beverages.png">
+        <p align="center">Snacks & Beverages</p>
+      </a>
+    </div>
+    <div class="categorytext">
+       <a routerLink="/kitchen"> <img class="image" src="..\assets\images\kitchen.png">
+        <p align="center">Kitchen</p>
+      </a>
+    </div>
+    </div>
+    
+    <h1 class="headertext"> Shop by Brand</h1>
+    <ion-card>
+      <div class="perfumebrand">
+      <ion-card>
+        <img class="brand" src="..\assets\images\adidas.jpg">
+        <p align="center">Adidas</p>
+      </ion-card>
+      <ion-card>
+        <img class="brand" src="..\assets\images\eternity.jpg">
+        <p align="center">Eternity</p>
+      </ion-card>
+     </div>
+      <div class="perfumebrand">
+      <ion-card>
+        <img class="brand" src="..\assets\images\chanel.jpg">
+        <p align="center">Chanel</p>
+      </ion-card>
+      <ion-card>
+        <img class="brand" src="..\assets\images\park_avenue.jpg">
+        <p align="center">Park Avenue</p>
+      </ion-card>
+     </div>
+    </ion-card>
+</ion-content>
+<!-- <ion-content>
   <div class = "image">
   <img src="assets\offer1.jpg" class="d-flex_justify-content-center">  
   </div>
@@ -375,4 +444,4 @@
                 </ion-col>
       </ion-row>
     </ion-grid>    
-</ion-content>
+</ion-content> -->

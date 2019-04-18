@@ -7,7 +7,64 @@ ion-title {
   height: 100%;
   text-align: center;
 }
+.slide{
+  height: 100%;
+  width: 100%;
+}
+ion-slides{
+  height: 200px;
+  margin-top: 10px;
+}
 
+.outerdiv{
+  display:flex;
+  width:100%;
+  overflow-x: scroll;
+  height: 190px;
+}
+.headertext{
+  margin-left:13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: center;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.categorytext{
+  
+  width: 55%;
+    height: 175px;
+    
+    margin-left: 13px;
+    min-height: 70%;
+    min-width: 50%;
+}
+.image {
+  width: 86%;
+  height: 79%;
+ 
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-stretch: normal;
+  color: black;
+}
+.perfumebrand{
+  width:100% ;
+  display: flex;
+}
+.perfumebrand ion-card{
+  width:46%;
+  margin-right: 0%;
+}
+.brand{
+  width:50%;
+  height: 80px;
+margin-right: 0%;
+margin-left: 25%;
+margin-top: 12px;
+}
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
@@ -21,7 +78,7 @@ a:hover, a:visited, a:link, a:active
   top:8px;
 }
 
-.image
+.image1
 {
   display: block;
   margin-left: auto;

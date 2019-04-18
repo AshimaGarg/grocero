@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button text="" defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+    <ion-title>My Account</ion-title>
+  
+        <h1>User Name</h1>
+        <p>Email</p>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-card>
+  <ion-list>
+ <p class="order">My Orders</p> 
+</ion-list>
+<a routerLink="/order"><p align="right">View All Orders</p></a>
+</ion-card>
+<ion-card>
+  <ion-list>
+      <p class="order">My Address</p> 
+    </ion-list>
+    <a routerLink="/order"><p align="right">View 1 More</p></a>
+ 
+</ion-card>
+</ion-content>
