@@ -22,10 +22,12 @@ const routes: Routes = [
   { path: 'notification', loadChildren: './notification/notification.module#NotificationPageModule' },
   { path: 'cart', loadChildren: './cart/cart.module#CartPageModule' },
   { path: 'account', loadChildren: './account/account.module#AccountPageModule' },
-  { path: 'personal', loadChildren: './personal/personal.module#PersonalPageModule' },  { path: 'household', loadChildren: './household/household.module#HouseholdPageModule' },
+  { path: 'personal', loadChildren: './personal/personal.module#PersonalPageModule' },
+  { path: 'household', loadChildren: './household/household.module#HouseholdPageModule' },
   { path: 'babycare', loadChildren: './babycare/babycare.module#BabycarePageModule' },
   { path: 'snacks', loadChildren: './snacks/snacks.module#SnacksPageModule' },
-  { path: 'kitchen', loadChildren: './kitchen/kitchen.module#KitchenPageModule' },
+  { path: 'kitchen', loadChildren: './kitchen/kitchen.module#KitchenPageModule' },  { path: 'basemodel', loadChildren: './basemodel/basemodel.module#BasemodelPageModule' },
+
 
 
   

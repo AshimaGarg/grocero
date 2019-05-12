@@ -22,20 +22,20 @@
           </div>
           <div padding>
             <ion-item>
-              <ion-input  name="name" type="text" placeholder="Name" ngModel required></ion-input>
+              <ion-input  name="name" type="text" placeholder="Name" [(ngModel)]="user.name" required></ion-input>
             </ion-item>
             <ion-item>
-              <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
+              <ion-input name="email" type="email" placeholder="your@email.com" [(ngModel)]="user.email" required></ion-input>
             </ion-item>
             <ion-item>
-              <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
+              <ion-input name="password" type="password" placeholder="Password" [(ngModel)]="user.password" required></ion-input>
             </ion-item>
             <ion-item>
-              <ion-input name="confirm" type="password" placeholder="Mobile Number" ngModel required></ion-input>
+              <ion-input name="number" type="number" placeholder="Mobile Number" [(ngModel)]="user.number" required></ion-input>
             </ion-item>
           </div>
           <div padding>
-           <a routerLink="/login"> <ion-button  size="small" type="submit"  expand="block">Register</ion-button></a>
+           <a routerLink="/login"> <ion-button  size="small" type="submit"  expand="block"  (click)="register()">Register</ion-button></a>
           </div>
         </ion-col>  
        </ion-row>
