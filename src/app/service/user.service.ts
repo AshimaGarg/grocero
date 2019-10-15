@@ -14,6 +14,7 @@ const httpOptions = {
 export class UserService {
 //  apiUrl = "https://api.backendless.com/53BFD26B-E3AE-111C-FF80-831079B0AA00/9BC4860F-823D-0174-FF20-039172293000/data/Users";
 baseUrl= 'http://localhost:54277/api';
+// baseUrl ='https://google.com';
 apiUrl="";  
 constructor( private http: HttpClient) { }
   // getData(){

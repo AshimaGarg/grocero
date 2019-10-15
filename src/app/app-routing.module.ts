@@ -26,7 +26,10 @@ const routes: Routes = [
   { path: 'household', loadChildren: './household/household.module#HouseholdPageModule' },
   { path: 'babycare', loadChildren: './babycare/babycare.module#BabycarePageModule' },
   { path: 'snacks', loadChildren: './snacks/snacks.module#SnacksPageModule' },
-  { path: 'kitchen', loadChildren: './kitchen/kitchen.module#KitchenPageModule' },  { path: 'basemodel', loadChildren: './basemodel/basemodel.module#BasemodelPageModule' },
+  { path: 'kitchen', loadChildren: './kitchen/kitchen.module#KitchenPageModule' },
+  { path: 'basemodel', loadChildren: './basemodel/basemodel.module#BasemodelPageModule' },
+  { path: 'setting', loadChildren: './setting/setting.module#SettingPageModule' },
+
 
 
 
